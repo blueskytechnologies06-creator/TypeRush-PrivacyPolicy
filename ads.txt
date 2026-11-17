@@ -1,3 +1,1 @@
-# TypeRush ads.txt
-# Publisher: BlueSky Technologies
 google.com, pub-2724470433317200, DIRECT, f08c47fec0942fa0
