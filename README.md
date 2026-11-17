@@ -1,6 +1,6 @@
 # TypeRush — Privacy Policy & Legal Documentation
 
-Official Privacy Policy, Terms of Service, and Data Safety Documentation for the **TypeRush** mobile application, published by **BlueSky Technologies**.
+Official Privacy Policy, Terms of Service, and Data Safety Documentation for the **TypeRush** mobile application (`com.typerush`), published by **BlueSky Technologies**.
 
 ---
 
@@ -8,7 +8,9 @@ Official Privacy Policy, Terms of Service, and Data Safety Documentation for the
 
 - **Live Legal Portal:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/)
 - **Direct Privacy Policy Section:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#privacy-policy](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#privacy-policy)
+- **Google Play Store Listing:** [Download TypeRush on Google Play](https://play.google.com/store/apps/details?id=com.typerush)
 - **Google Play Data Safety Disclosure:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#data-safety](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#data-safety)
+- **App Screenshots & Gallery:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#screenshots](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#screenshots)
 - **Official app-ads.txt Record:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/app-ads.txt](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/app-ads.txt)
 - **Terms of Service:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#terms](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#terms)
 
@@ -19,10 +21,12 @@ Official Privacy Policy, Terms of Service, and Data Safety Documentation for the
 | Field                     | Details                                                      |
 | :------------------------ | :----------------------------------------------------------- |
 | **Application Name**      | TypeRush                                                     |
+| **Package Identifier**    | `com.typerush`                                               |
 | **Category**              | Mobile Typing Speed Test & Productivity                     |
 | **Developer / Publisher** | BlueSky Technologies                                         |
 | **Contact Email**         | `blueskytechnologies06@gmail.com`                            |
 | **Supported Platforms**   | Android & iOS                                                |
+| **Google Play URL**       | [com.typerush](https://play.google.com/store/apps/details?id=com.typerush) |
 | **Data Architecture**     | 100% Local Encrypted Storage (MMKV)                         |
 | **Advertising Network**   | Google AdMob (Authorized IAB `app-ads.txt` Verified)         |
 | **Consent Management**    | Google UMP (GDPR / UK GDPR & CCPA/CPRA Compliant)            |
