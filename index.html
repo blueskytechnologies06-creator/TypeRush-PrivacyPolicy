@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeRush — Privacy Policy & Terms</title>
+  <meta name="description" content="Official Privacy Policy and Terms of Service for TypeRush, the mobile typing speed test app for iOS and Android.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310B981'><path d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/></svg>">
+  <style>
+    :root {
+      --bg: #0B0E14;
+      --surface: #141824;
+      --surface-subtle: #1C2233;
+      --card: #181D2D;
+      --border: #262E44;
+      --text: #F1F5F9;
+      --text-muted: #94A3B8;
+      --text-subtle: #64748B;
+      --primary: #10B981;
+      --primary-light: #34D399;
+      --primary-dark: #059669;
+      --accent: #F59E0B;
+      --danger: #EF4444;
+      --radius: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 0 16px 80px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      padding: 48px 0 32px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+    }
+
+    .brand-logo svg {
+      width: 24px;
+      height: 24px;
+      fill: #ffffff;
+    }
+
+    .brand-title {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #ffffff;
+    }
+
+    .brand-subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .tab-btn {
+      background: var(--surface);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .tab-btn:hover {
+      background: var(--surface-subtle);
+      color: var(--text);
+      border-color: var(--primary);
+    }
+
+    .tab-btn.active {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--primary-light);
+      border-color: var(--primary);
+    }
+
+    /* Content Cards */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    .meta-date {
+      font-size: 13px;
+      color: var(--text-subtle);
+      margin-bottom: 24px;
+      display: block;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary-light);
+      margin: 32px 0 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff;
+      margin: 18px 0 8px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    p strong {
+      color: var(--text);
+    }
+
+    ul, ol {
+      margin: 12px 0 18px 24px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary-light);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .highlight-box {
+      background: rgba(16, 185, 129, 0.08);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 4px 8px 8px 4px;
+      margin: 20px 0;
+    }
+
+    .highlight-box p {
+      margin-bottom: 0;
+      color: var(--text);
+      font-size: 14.5px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      background: var(--surface-subtle);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .admob-banner {
+      background: var(--surface);
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin: 20px 0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      color: var(--text-muted);
+      overflow-x: auto;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-subtle);
+      font-size: 13px;
+    }
+
+    /* Tab Switcher Logic */
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand-row">
+        <div class="brand-logo">
+          <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <div>
+          <div class="brand-title">TypeRush ⚡</div>
+          <div class="brand-subtitle">Mobile Typing Speed Test for iOS & Android</div>
+        </div>
+      </div>
+
+      <nav class="nav-tabs">
+        <button class="tab-btn active" onclick="switchTab('privacy')">Privacy Policy</button>
+        <button class="tab-btn" onclick="switchTab('terms')">Terms of Service</button>
+        <button class="tab-btn" onclick="switchTab('appads')">app-ads.txt</button>
+        <a class="tab-btn" href="mailto:support@typerush.app">Contact Support</a>
+      </nav>
+    </header>
+
+    <!-- PRIVACY POLICY SECTION -->
+    <main id="privacy-section" class="tab-content active">
+      <article class="card">
+        <h1>Privacy Policy</h1>
+        <span class="meta-date">Last updated: November 17, 2026 • Effective Date: November 17, 2026</span>
+
+        <p>Welcome to <strong>TypeRush</strong> ("we", "our", or "us"). We respect your privacy and are committed to protecting it through this Privacy Policy. This document explains how our mobile application handles user information across Android (Google Play Store) and iOS (Apple App Store).</p>
+
+        <div class="highlight-box">
+          <p><strong>Summary:</strong> TypeRush does not require account creation, logins, or cloud synchronization. All typing tests, scores, history, and unlocked palettes stay locally on your device. We use Google AdMob to display ads, which collects standardized mobile advertising identifiers according to your privacy consent choices.</p>
+        </div>
+
+        <h2>1. Information We Do NOT Collect</h2>
+        <p>To provide a safe, frictionless experience, TypeRush <strong>never</strong> asks for or collects:</p>
+        <ul>
+          <li>Personal identifying details (e.g., your name, home address, or phone number).</li>
+          <li>Account credentials (there is no user registration, password, or profile system).</li>
+          <li>Financial or credit card details (all rewarded features are earned via video ads).</li>
+          <li>Biometric data, contacts, camera recordings, or microphone audio.</li>
+        </ul>
+
+        <h2>2. Information Stored Locally on Your Device</h2>
+        <p>TypeRush stores functional performance data directly on your device using high-performance, encrypted <strong>MMKV local storage</strong>. This data never leaves your device and is not accessible to us:</p>
+        <ul>
+          <li><strong>Typing Speed Metrics:</strong> Net Words Per Minute (WPM), Raw WPM, typing accuracy percentage, error counts, and test durations.</li>
+          <li><strong>Historical Records:</strong> Completed typing tests, progression logs, and calculated skill tiers.</li>
+          <li><strong>App Preferences:</strong> Selected theme (Dark, Light, System), active color palette (Emerald, Cyberpunk, Synthwave, Monokai Pro, Dracula, Nord), font sizes, sound effects, and haptic feedback toggles.</li>
+          <li><strong>Theme Unlocks:</strong> Digital unlock status of bonus theme palettes unlocked by watching rewarded videos.</li>
+        </ul>
+        <p><em>You can permanently erase all local records at any time by navigating to <strong>Settings &gt; Clear All History</strong> inside the app.</em></p>
+
+        <h2>3. Third-Party Services & Advertising (Google AdMob)</h2>
+        <p>TypeRush is supported by advertising delivered through <strong>Google AdMob</strong> (using the <code>react-native-google-mobile-ads</code> framework). While TypeRush itself does not collect personal identifiers, Google AdMob and its advertising partners may automatically collect certain device data to serve advertisements:</p>
+        <ul>
+          <li><strong>Mobile Advertising Identifiers:</strong> Google Advertising ID (AAID) on Android devices, and Identifier for Advertisers (IDFA) on iOS (subject to user permission).</li>
+          <li><strong>Technical Device Information:</strong> Device model, operating system version, carrier, and screen dimensions.</li>
+          <li><strong>Coarse Location Data:</strong> IP address used to approximate general geographic area (such as country or city level) for relevant regional ads.</li>
+          <li><strong>Ad Interaction Metrics:</strong> Information regarding ad impressions, views, clicks, and diagnostic performance logs.</li>
+        </ul>
+        <p>For more details on how Google processes ad data, please review:</p>
+        <ul>
+          <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+          <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use their services</a></li>
+        </ul>
+
+        <h2>4. User Consent & Privacy Controls (Google UMP)</h2>
+        <p>We respect your right to control ad personalization:</p>
+        <ul>
+          <li><strong>European Regulations (GDPR / UK GDPR):</strong> Upon launching the app in the European Economic Area (EEA) and the UK, you are presented with the Google User Messaging Platform (UMP) consent dialog, allowing you to accept or refuse personalized advertising.</li>
+          <li><strong>US State Privacy Laws (CCPA / CPRA / VCDPA):</strong> Residents of California, Virginia, and other US states have the right to opt out of the "sale" or "sharing" of personal data for targeted advertising.</li>
+          <li><strong>Changing Your Choices:</strong> You can reset or update your consent preferences at any time by tapping <strong>Reset Privacy Consent</strong> under the <em>Consent & Privacy</em> section in the TypeRush Settings screen.</li>
+        </ul>
+
+        <h2>5. Strict Ad Placement Policy</h2>
+        <p>To preserve your typing flow and prevent accidental taps:</p>
+        <ul>
+          <li><strong>Zero Ads During Tests:</strong> The active typing test screen is 100% ad-free.</li>
+          <li><strong>Capped Frequency:</strong> Interstitial full-screen ads are capped to at most once every 3 completed tests and at least 3 minutes apart.</li>
+        </ul>
+
+        <h2>6. Children's Online Privacy (COPPA Compliance)</h2>
+        <p>TypeRush is designed for general audiences aged 13 and older. We do not knowingly solicit or collect personal information from children under the age of 13. If you believe a child under 13 has provided personal data to third parties through our app, please contact us immediately so we can investigate and facilitate deletion.</p>
+
+        <h2>7. Data Retention & Deletion</h2>
+        <p>Because all gameplay metrics and settings are stored locally on your device:</p>
+        <ul>
+          <li>You can reset your metrics via the in-app <strong>Clear All History</strong> button.</li>
+          <li>Uninstalling the TypeRush application automatically purges all locally stored data.</li>
+        </ul>
+
+        <h2>8. Changes to this Privacy Policy</h2>
+        <p>We may update our Privacy Policy periodically to reflect app updates, technical changes, or legal obligations. When revised, the "Last Updated" date at the top of this page will be updated. We encourage you to review this policy periodically.</p>
+
+        <h2>9. Contact Us</h2>
+        <p>If you have any questions, feedback, or concerns regarding this Privacy Policy or your data, please reach out to us:</p>
+        <p><strong>Email:</strong> <a href="mailto:support@typerush.app">support@typerush.app</a><br>
+        <strong>Developer:</strong> TypeRush Team<br>
+        <strong>Website:</strong> <a href="https://typerush.app">https://typerush.app</a></p>
+      </article>
+    </main>
+
+    <!-- TERMS OF SERVICE SECTION -->
+    <section id="terms-section" class="tab-content">
+      <article class="card">
+        <h1>Terms of Service</h1>
+        <span class="meta-date">Last updated: November 17, 2026</span>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, or using the <strong>TypeRush</strong> mobile application, you agree to be bound by these Terms of Service. If you do not agree with any of these terms, please do not use the app.</p>
+
+        <h2>2. License & Intellectual Property</h2>
+        <p>We grant you a personal, non-exclusive, non-transferable, revocable license to use TypeRush for personal, non-commercial typing practice and recreation.</p>
+        <ul>
+          <li>All original passages, UI designs, code, trademarks, and branding associated with TypeRush are the property of the developer.</li>
+          <li>You may not decompile, reverse-engineer, modify, or distribute the application code.</li>
+        </ul>
+
+        <h2>3. In-App Rewards & Theme Unlocks</h2>
+        <p>TypeRush offers optional cosmetic dark theme palettes (such as Synthwave, Monokai Pro, Dracula, Nord) that can be unlocked by viewing rewarded video advertisements provided by Google AdMob.</p>
+        <ul>
+          <li>Unlocked themes carry no cash value and cannot be redeemed, transferred, or sold.</li>
+          <li>Because unlocked status is stored locally on your device, reinstalling the app or clearing local app data may reset unlocked themes.</li>
+        </ul>
+
+        <h2>4. Disclaimer of Warranties</h2>
+        <p>TypeRush is provided on an <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong> basis without warranties of any kind, whether express or implied. We do not guarantee uninterrupted, bug-free, or error-free operation.</p>
+
+        <h2>5. Limitation of Liability</h2>
+        <p>To the maximum extent permitted by applicable law, in no event shall TypeRush or its developers be liable for any indirect, incidental, punitive, or consequential damages resulting from your use of or inability to use the app.</p>
+
+        <h2>6. Contact</h2>
+        <p>Questions regarding these terms may be directed to <a href="mailto:support@typerush.app">support@typerush.app</a>.</p>
+      </article>
+    </section>
+
+    <!-- APP-ADS.TXT VIEWER SECTION -->
+    <section id="appads-section" class="tab-content">
+      <article class="card">
+        <h1>app-ads.txt Verification</h1>
+        <span class="meta-date">AdMob Authorized Digital Sellers Record</span>
+
+        <p>This domain hosts the official <code>app-ads.txt</code> specification for Google AdMob crawler verification according to the IAB Tech Lab standard.</p>
+
+        <h3>Raw File Link</h3>
+        <p>Access the live plain-text file at: <a href="app-ads.txt" target="_blank"><code>/app-ads.txt</code></a> or <a href="ads.txt" target="_blank"><code>/ads.txt</code></a></p>
+
+        <h3>File Contents Preview</h3>
+        <div class="admob-banner">
+          # TypeRush app-ads.txt<br>
+          # AdMob Publisher ID verification record<br>
+          google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+        </div>
+
+        <div class="highlight-box">
+          <p><strong>Note for Developer:</strong> Replace <code>pub-XXXXXXXXXXXXXXXX</code> in <code>app-ads.txt</code> with your actual Publisher ID from your Google AdMob Dashboard (<strong>Settings &gt; Account Information</strong>) before store launch.</p>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 TypeRush. All rights reserved. • <a href="app-ads.txt">app-ads.txt</a></p>
+    </footer>
+  </div>
+
+  <script>
+    function switchTab(tab) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+      if (tab === 'privacy') {
+        document.getElementById('privacy-section').classList.add('active');
+        event.target.classList.add('active');
+      } else if (tab === 'terms') {
+        document.getElementById('terms-section').classList.add('active');
+        event.target.classList.add('active');
+      } else if (tab === 'appads') {
+        document.getElementById('appads-section').classList.add('active');
+        event.target.classList.add('active');
+      }
+    }
+  </script>
+</body>
+</html>
+
