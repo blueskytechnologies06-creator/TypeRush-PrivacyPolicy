@@ -1,4 +1,3 @@
-# TypeRush ads.txt (Fallback for web crawlers)
-# Replace pub-XXXXXXXXXXXXXXXX with your actual Google AdMob Publisher ID
+# TypeRush ads.txt
+# Publisher: BlueSky Technologies
 google.com, pub-2724470433317200, DIRECT, f08c47fec0942fa0
-

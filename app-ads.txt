@@ -1,4 +1,3 @@
 # TypeRush app-ads.txt
-# Replace pub-XXXXXXXXXXXXXXXX with your actual Google AdMob Publisher ID
-# (Find it in: Google AdMob Console > Settings > Account Information)
+# Publisher: BlueSky Technologies
 google.com, pub-2724470433317200, DIRECT, f08c47fec0942fa0

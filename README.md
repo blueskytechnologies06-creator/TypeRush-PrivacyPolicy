@@ -1,55 +1,47 @@
-# TypeRush — Privacy Policy & app-ads.txt Site
+# TypeRush — Privacy Policy & Legal Documentation
 
-This repository contains the official, store-compliant **Privacy Policy**, **Terms of Service**, and **app-ads.txt** web pages for **TypeRush** (iOS & Android).
-
----
-
-## 📁 Files Included
-
-- `index.html`: Responsive dark-mode landing page featuring the full Privacy Policy (GDPR, CCPA, COPPA, AdMob compliant) and Terms of Service.
-- `app-ads.txt`: Official IAB Authorized Digital Sellers file for Google AdMob crawler verification.
-- `ads.txt`: Standard duplicate file for generic crawlers.
+Official Privacy Policy, Terms of Service, and Data Safety Documentation for the **TypeRush** mobile application, published by **BlueSky Technologies**.
 
 ---
 
-## ⚡ How to Deploy for Free in 2 Minutes
+## 🔗 Official Links
 
-### Option 1: GitHub Pages (Recommended — 100% Free Forever)
-1. Initialize a Git repository inside this folder:
-   ```bash
-   cd /Users/rajzadafiya/Projects/typerush-privacy-site
-   git init
-   git add .
-   git commit -m "Initial commit of privacy policy and app-ads.txt"
-   ```
-2. Create a public GitHub repository named `typerush-policy` (or your preferred name).
-3. Push to GitHub:
-   ```bash
-   git remote add origin https://github.com/<your-username>/typerush-policy.git
-   git branch -M main
-   git push -u origin main
-   ```
-4. On GitHub, go to **Settings > Pages > Source**, select `Deploy from a branch` > `main` (`/root`), and save.
-5. Your site is live at: `https://<your-username>.github.io/typerush-policy/`!
-
-### Option 2: Netlify / Vercel (Drag-and-Drop)
-1. Go to [Netlify Drop](https://app.netlify.com/drop).
-2. Drag and drop this folder (`/Users/rajzadafiya/Projects/typerush-privacy-site`).
-3. You get an instant custom URL like `https://typerush-privacy.netlify.app`.
+- **Live Legal Portal:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/)
+- **Direct Privacy Policy Section:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#privacy-policy](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#privacy-policy)
+- **Google Play Data Safety Disclosure:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#data-safety](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#data-safety)
+- **Official app-ads.txt Record:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/app-ads.txt](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/app-ads.txt)
+- **Terms of Service:** [https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#terms](https://blueskytechnologies06-creator.github.io/TypeRush-PrivacyPolicy/#terms)
 
 ---
 
-## 📲 Connecting to Google Play & Apple App Store
+## 📋 Application & Publisher Details
 
-1. **Google Play Console**:
-   - Go to **App content > Privacy policy** and paste your live URL (e.g., `https://yourdomain.com`).
-   - Go to **Store settings > Developer contact details > Website** and enter `https://yourdomain.com` *(This is where AdMob looks for `app-ads.txt`)*.
+| Field                     | Details                                                      |
+| :------------------------ | :----------------------------------------------------------- |
+| **Application Name**      | TypeRush                                                     |
+| **Category**              | Mobile Typing Speed Test & Productivity                     |
+| **Developer / Publisher** | BlueSky Technologies                                         |
+| **Contact Email**         | `blueskytechnologies06@gmail.com`                            |
+| **Supported Platforms**   | Android & iOS                                                |
+| **Data Architecture**     | 100% Local Encrypted Storage (MMKV)                         |
+| **Advertising Network**   | Google AdMob (Authorized IAB `app-ads.txt` Verified)         |
+| **Consent Management**    | Google UMP (GDPR / UK GDPR & CCPA/CPRA Compliant)            |
 
-2. **Apple App Store Connect**:
-   - Under **App Information > General Information > Privacy Policy URL**, paste `https://yourdomain.com`.
-   - Under **Support URL**, paste `https://yourdomain.com`.
+---
 
-3. **Google AdMob Console**:
-   - Once your website URL is saved on Google Play / App Store, AdMob's automated crawler will check `https://yourdomain.com/app-ads.txt` within 24–48 hours.
-   - Go to **AdMob > Apps > View All Apps > app-ads.txt** to confirm verification.
+## 🛡️ Core Privacy Principles
 
+- **100% Local Storage:** All typing speed metrics (Net WPM, Raw WPM, accuracy rate, error logs), test histories, and unlocked color palettes are stored exclusively on the user's device using fast, encrypted MMKV local storage. No gameplay data is transmitted to external servers.
+- **Zero Account Friction:** TypeRush requires no account registration, login credentials, passwords, or personal profiles.
+- **No Sensitive Permissions:** TypeRush does not access device contacts, camera recordings, microphone audio, coarse/precise GPS location, or personal identity details.
+- **Privacy-First Advertising (AdMob):** TypeRush displays ads delivered via Google AdMob with full Google User Messaging Platform (UMP) consent controls (allowing EEA/UK and California residents to manage their privacy and ad personalization choices). Active typing tests remain strictly 100% ad-free.
+- **Complete User Data Ownership:** Users can permanently delete all local typing scores and history at any time directly within the app settings. Uninstalling the app permanently purges all local data.
+
+---
+
+## 📬 Contact & Inquiries
+
+For questions, feedback, or legal inquiries regarding TypeRush:
+
+- **Publisher:** BlueSky Technologies — Legal & Privacy Team
+- **Email:** [blueskytechnologies06@gmail.com](mailto:blueskytechnologies06@gmail.com)
